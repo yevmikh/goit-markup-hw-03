@@ -1,0 +1,173 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+:root {
+  --header-text-color: #2e2f42;
+  --general-text-color: #434455;
+  --main-color: #4d5ae5;
+  --active-color: #404bbf;
+  --font-medium: 500;
+}
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.logo {
+  color: var(--main-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: var(--header-text-color);
+}
+
+.nav-item {
+  color: var(--header-text-color);
+  font-weight: var(--font-medium);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--active-color);
+}
+
+.address-item {
+  color: var(--general-text-color);
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--active-color);
+}
+/**
+  |============================
+  | MAIN
+  |============================
+*/
+.hero {
+  /* temporary background-remove later */
+  background-color: var(--header-text-color);
+}
+
+.hero-header {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.button-hero {
+  border: none;
+  color: #ffffff;
+  background: var(--main-color);
+  font-weight: var(--font-medium);
+  letter-spacing: 0.64px;
+  line-height: 1.5;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background: var(--active-color);
+}
+
+.goal-subtitle,
+.team-subtitle,
+.portfolio-main-subtitle {
+  color: var(--header-text-color);
+  font-size: 20px;
+  font-weight: var(--font-medium);
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+}
+
+.goal-text,
+.team-text,
+.portfolio-main-text {
+  color: var(--general-text-color);
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-header,
+.services-header {
+  color: var(--header-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+.footer {
+  background-color: var(--header-text-color);
+}
+
+.footer-logo,
+.footer-text {
+  color: #f4f4fd;
+}
+
+/**
+  |============================
+  | PORTFOLIO EXCLUSEVILY
+  |============================
+*/
+.portfolio-button {
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+  font-weight: var(--font-medium);
+
+  letter-spacing: 0.64px;
+  color: var(--main-color);
+  line-height: 1.5;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--active-color);
+  color: #ffffff;
+}
