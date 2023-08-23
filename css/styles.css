@@ -35,9 +35,83 @@ button {
 
 /**
   |============================
+  | HIDDEN ELEMENTS 
+  |============================
+*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/**
+  |============================
+  | CANCELATION ALL STYLES 
+  |============================
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+/**
+  |============================
+  | IMG INLINE-->>BLOCK
+  |============================
+*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+  |============================
+  | CONTAINER FLEX 
+  |============================
+*/
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px dashed rgba(8, 109, 55, 0.889);
+}
+
+/**
+  |============================
   | HEADER
   |============================
 */
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+}
 
 .logo {
   color: var(--main-color);
@@ -58,6 +132,10 @@ button {
   font-weight: var(--font-medium);
 }
 
+.nav-list {
+  display: flex;
+}
+
 .nav-item:hover,
 .nav-item:focus {
   color: var(--active-color);
@@ -65,6 +143,10 @@ button {
 
 .address-item {
   color: var(--general-text-color);
+}
+
+.address-flex {
+  display: flex;
 }
 
 .address-item:hover,
