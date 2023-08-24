@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-flex">
         <nav class="nav">
           <a href="./index.html" class="logo link"
             >Web<span class="logo-web logo">Studio</span></a
@@ -32,7 +32,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="list">
+          <ul class="list address-flex">
             <li>
               <a href="mailto:info@devstudio.com" class="link address-item"
                 >info@devstudio.com</a
@@ -51,38 +51,38 @@
     <main>
       <!-- hero -->
       <section class="hero">
-        <div class="container">
+        <div class="container hero-flex">
           <h1 class="hero-header">Effective Solutions for Your Business</h1>
           <button type="button" class="button-hero">Order Service</button>
         </div>
       </section>
       <!-- goal -->
-      <section class="goal">
+      <section class="goal paddding-120">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
-          <ul class="list">
-            <li>
+          <ul class="list goal-flex">
+            <li class="goal-list">
               <h3 class="goal-subtitle">Strategy</h3>
               <p class="goal-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="goal-list">
               <h3 class="goal-subtitle">Punctuality</h3>
               <p class="goal-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="goal-list">
               <h3 class="goal-subtitle">Diligence</h3>
               <p class="goal-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="goal-list">
               <h3 class="goal-subtitle">Technologies</h3>
               <p class="goal-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -96,8 +96,8 @@
       <section class="services">
         <div class="container">
           <h2 class="services-header">What are we doing</h2>
-          <ul class="list">
-            <li>
+          <ul class="list services-flex">
+            <li class="services-item">
               <img
                 src="./images/index/img1.jpg"
                 alt="computer"
@@ -105,7 +105,7 @@
                 height="304"
               />
             </li>
-            <li>
+            <li class="services-item">
               <img
                 src="./images/index/img2.jpg"
                 alt="cellphones"
@@ -113,7 +113,7 @@
                 height="304"
               />
             </li>
-            <li>
+            <li class="services-item">
               <img
                 src="./images/index/img3.jpg"
                 alt="celphone"
@@ -125,10 +125,10 @@
         </div>
       </section>
       <!-- our_team -->
-      <section class="team">
+      <section class="team paddding-120">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
-          <ul class="list">
+          <ul class="list team-flex">
             <li class="team-list">
               <img
                 src="./images/index/img4.jpg"
@@ -136,8 +136,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-group">
+                <h3 class="team-subtitle">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-list">
               <img
@@ -146,8 +148,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-group">
+                <h3 class="team-subtitle">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list">
               <img
@@ -156,8 +160,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-group">
+                <h3 class="team-subtitle">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-list">
               <img
@@ -166,8 +172,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-group">
+                <h3 class="team-subtitle">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -175,14 +183,16 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="link logo">
-          Web<span class="footer-logo logo">Studio</span>
-        </a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+      <div class="container footer-flex">
+        <div class="footer-logo-group">
+          <a href="./index.html" class="link logo">
+            Web<span class="footer-logo logo">Studio</span>
+          </a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
