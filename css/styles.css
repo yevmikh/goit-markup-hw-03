@@ -108,11 +108,15 @@ img {
   |============================
 */
 
+.header {
+  border-bottom: 1px solid var(--accent-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--cornflower, var(--accent-color));
 }
 
 .nav {
@@ -129,6 +133,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.logo-flex {
+  display: inline-block;
+  margin-right: 76px;
+}
 
 .logo-web {
   color: var(--header-text-color);
@@ -141,10 +149,8 @@ img {
 
 .nav-list {
   display: flex;
-  margin-left: 76px;
+  /* margin-left: 76px; ?????*/
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .nav-item:hover,
@@ -205,6 +211,7 @@ img {
 
   padding: 16px 32px;
   margin: 0 auto;
+  min-width: 169px;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -282,15 +289,14 @@ img {
 }
 
 .team-group {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
-.team-group:not(:last-child) {
+.team-subtitle {
   margin-bottom: 8px;
 }
 
-.paddding-120 {
+.paddding-standart {
   padding-top: var(--padding-120);
   padding-bottom: var(--padding-120);
 }
@@ -307,6 +313,8 @@ img {
 */
 .footer {
   background-color: var(--header-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo,
@@ -315,17 +323,19 @@ img {
 }
 
 .footer-text {
-  margin-top: 17px;
   max-width: 264px;
 }
 .footer-flex {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   padding-left: 156px;
-
   display: flex;
 }
 
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /**
   |============================
   | PORTFOLIO EXCLUSEVILY
@@ -351,9 +361,10 @@ img {
 .portfolio-button:focus {
   background: var(--active-color);
   color: var(--ligh-white);
+  border: 1px solid;
 }
 
-.portfolio-main {
+.portfolio-section {
   padding-top: 96px;
   padding-bottom: var(--padding-120);
 }
@@ -380,4 +391,7 @@ img {
 
   border: 1px solid var(--cornflower, var(--accent-color));
   border-top: 0;
+}
+.portfolio-main-subtitle {
+  margin-bottom: 8px;
 }
