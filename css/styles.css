@@ -110,8 +110,6 @@ img {
 
 .header {
   border-bottom: 1px solid var(--accent-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-flex {
   display: flex;
@@ -122,6 +120,8 @@ img {
 .nav {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -326,10 +326,7 @@ img {
   max-width: 264px;
 }
 .footer-flex {
-  display: flex;
-  flex-direction: column;
   padding-left: 156px;
-  display: flex;
 }
 
 .footer-link {
@@ -361,7 +358,7 @@ img {
 .portfolio-button:focus {
   background: var(--active-color);
   color: var(--ligh-white);
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 
 .portfolio-section {
