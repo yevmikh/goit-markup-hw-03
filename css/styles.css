@@ -120,8 +120,6 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -151,6 +149,8 @@ img {
   display: flex;
   /* margin-left: 76px; ?????*/
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-item:hover,
