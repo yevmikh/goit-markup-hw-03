@@ -327,9 +327,9 @@ img {
 .footer-text {
   max-width: 264px;
 }
-.footer-flex {
+/* .footer-flex {
   padding-left: 156px;
-}
+} */
 
 .footer-link {
   display: inline-block;
